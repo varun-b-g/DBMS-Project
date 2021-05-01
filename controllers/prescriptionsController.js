@@ -13,6 +13,9 @@ module.exports = {
           .create(req.body)
           .then(dbModel => res.json(dbModel))
           .catch(err => res.status(422).json(err));
+      db.User.update((
+   { $push: {prescriptions :{$each: req.params.id } }}
+))
   },
   findById: function (req, res) {
     db.Prescription

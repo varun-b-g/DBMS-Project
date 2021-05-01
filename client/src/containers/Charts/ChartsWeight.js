@@ -68,7 +68,7 @@ class ChartsWeight extends React.Component {
       dataSource: {
           chart: {
             xaxisname: 'Date',
-            yaxisname: "Weight (In pounds)",
+            yaxisname: "Weight (In kg)",
             yAxisNamePadding: "30",
             chartTopMargin: "40",
             linecolor: "#008ee4",

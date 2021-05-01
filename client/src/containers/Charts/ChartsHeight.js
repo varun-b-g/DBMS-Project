@@ -66,7 +66,7 @@ class ChartsHeight extends React.Component {
       dataSource: {
         chart: {
           xaxisname: 'Date',
-          yaxisname: "Height (In inches)",
+          yaxisname: "Height (In cm)",
           yAxisNamePadding: "30",
           chartTopMargin: "40",
           linecolor: "#f8bd19",

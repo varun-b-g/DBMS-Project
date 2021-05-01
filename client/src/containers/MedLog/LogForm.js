@@ -150,7 +150,7 @@ class LogForm extends React.Component {
               <FormControl className={classes.formControl} fullWidth>
                 <InputLabel htmlFor="height">
                   <span>
-                    Height (inches) 
+                    Height (cm) 
                     <Tooltip  
                       title="Enter the height measurement taken at the doctor's office."
                       placement="top">
@@ -173,7 +173,7 @@ class LogForm extends React.Component {
               <FormControl className={classes.formControl} fullWidth>
                 <InputLabel htmlFor="weight">
                   <span>
-                    Weight (pounds) 
+                    Weight (kg) 
                     <Tooltip  
                       title="Enter the weight measurment taken at the doctor's office."
                       placement="top">

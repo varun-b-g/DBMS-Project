@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 
 // This file empties the Books collection and inserts the books below
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://varun:<password>@webapp.0hvfa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://varun:varun@webapp.0hvfa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
 // const userSeed = {
 //   firstname: 'Sara',

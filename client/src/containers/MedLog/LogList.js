@@ -66,13 +66,13 @@ class LogList extends React.Component {
 
               <ListItem>
                 <ListItemText >
-                  <b>Height (inches):</b> {this.props.heightIn}
+                  <b>Height (cm):</b> {this.props.heightIn}
                 </ListItemText>
               </ListItem>
 
               <ListItem>
                 <ListItemText >
-                  <b>Weight (pounds):</b> {this.props.weightLb}
+                  <b>Weight (kg):</b> {this.props.weightLb}
                 </ListItemText>
               </ListItem>
 

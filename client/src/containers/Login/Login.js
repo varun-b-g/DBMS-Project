@@ -67,7 +67,6 @@ class Login extends Component {
         passwordMissingError: "Password is required."
       })
     }
-
     setUser("i am the user")
     axios.post('/Auth/login', { username: this.state.username, password: this.state.password})
       .then((res) => {
@@ -76,7 +75,9 @@ class Login extends Component {
         history.push('/home')
         
       })
-      .catch(err => console.log(err))
+      .catch(err => {console.log(err)
+    alert("Your credentials are incorrect")
+})
   };
 
   render() {
@@ -94,6 +95,7 @@ class Login extends Component {
         <div className="main-content-section">
           <Grid item xs={12} className={classes.headline}>
             <Grid container spacing={16} className={classes.root} justify="center">
+
               <LoginForm
                 handleFormSubmit = {this.handleFormSubmit}
                 handleUsernameChange = {this.handleUsernameChange}

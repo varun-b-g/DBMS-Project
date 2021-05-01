@@ -128,55 +128,42 @@ class ClinicForm extends React.Component {
                   }
                 >
                   <MenuItem value='' />
-                  <MenuItem value='AL'>Alabama</MenuItem>
-                  <MenuItem value='AK'>Alaska</MenuItem>
-                  <MenuItem value='AZ'>Arizona</MenuItem>
-                  <MenuItem value='CA'>California</MenuItem>
-                  <MenuItem value='CO'>Colorado</MenuItem>
-                  <MenuItem value='CT'>Connecticut</MenuItem>
-                  <MenuItem value='DE'>Delaware</MenuItem>
-                  <MenuItem value='FL'>Florida</MenuItem>
-                  <MenuItem value='GA'>Georgia</MenuItem>
-                  <MenuItem value='HI'>Hawaii</MenuItem>
-                  <MenuItem value='ID'>Idaho</MenuItem>
-                  <MenuItem value='IL'>Illinois</MenuItem>
-                  <MenuItem value='IN'>Indiana</MenuItem>
-                  <MenuItem value='IA'>Iowa</MenuItem>
-                  <MenuItem value='KS'>Karnataka</MenuItem>
-                  <MenuItem value='KY'>Kentucy</MenuItem>
-                  <MenuItem value='LA'>Louisiana</MenuItem>
-                  <MenuItem value='ME'>Maine</MenuItem>
-                  <MenuItem value='MD'>Maryland</MenuItem>
-                  <MenuItem value='MA'>Massachusetts</MenuItem>
-                  <MenuItem value='MI'>Michigan</MenuItem>
-                  <MenuItem value='MN'>Minnesota</MenuItem>
-                  <MenuItem value='MS'>Mississppi</MenuItem>
-                  <MenuItem value='MO'>Missouri</MenuItem>
-                  <MenuItem value='MT'>Montana</MenuItem>
-                  <MenuItem value='NE'>Nebraska</MenuItem>
-                  <MenuItem value='NV'>Nevada</MenuItem>
-                  <MenuItem value='NH'>New Hampshire</MenuItem>
-                  <MenuItem value='NJ'>New Jersey</MenuItem>
-                  <MenuItem value='NM'>New Mexico</MenuItem>
-                  <MenuItem value='NY'>New York</MenuItem>
-                  <MenuItem value='NC'>North Carolina</MenuItem>
-                  <MenuItem value='ND'>North Dakota</MenuItem>
-                  <MenuItem value='OH'>Ohio</MenuItem>
-                  <MenuItem value='OK'>Oklahoma</MenuItem>
-                  <MenuItem value='OR'>Oregon</MenuItem>
-                  <MenuItem value='PA'>Pennsylvania</MenuItem>
-                  <MenuItem value='RI'>Rhode Island</MenuItem>
-                  <MenuItem value='SC'>South Carolina</MenuItem>
-                  <MenuItem value='SD'>South Dakota</MenuItem>
-                  <MenuItem value='TN'>Tennessee</MenuItem>
-                  <MenuItem value='TX'>Texas</MenuItem>
-                  <MenuItem value='UT'>Utah</MenuItem>
-                  <MenuItem value='VT'>Vermont</MenuItem>
-                  <MenuItem value='VA'>Virginia</MenuItem>
-                  <MenuItem value='WA'>Washington</MenuItem>
-                  <MenuItem value='WV'>West Virginia</MenuItem>
-                  <MenuItem value='WI'>Wisconsin</MenuItem>
-                  <MenuItem value='WY'>Wyoming</MenuItem>
+                  <MenuItem value='AN'>Andaman and Nicobar</MenuItem>
+                  <MenuItem value='AP'>Andhra Pradesh</MenuItem>
+                  <MenuItem value='AR'>Arunachal Pradesh</MenuItem>
+                  <MenuItem value='AS'>Assam</MenuItem>
+                  <MenuItem value='BR'>Bihar</MenuItem>
+                  <MenuItem value='CH'>Chandigarh</MenuItem>
+                  <MenuItem value='CG'>Chhattisgarh</MenuItem>
+                  <MenuItem value='DD'>Daman and Diu</MenuItem>
+                  <MenuItem value='DL'>Delhi</MenuItem>
+                  <MenuItem value='GA'>Goa</MenuItem>
+                  <MenuItem value='GJ'>Gujarat</MenuItem>
+                  <MenuItem value='HR'>Haryana</MenuItem>
+                  <MenuItem value='HP'>Himachal Pradesh</MenuItem>
+                  <MenuItem value='JK'>Jammu and Kashmir</MenuItem>
+                  <MenuItem value='JH'>Jharkhand</MenuItem>
+                  <MenuItem value='KA'>Karnataka</MenuItem>
+                  <MenuItem value='KL'>Kerala</MenuItem>
+                  <MenuItem value='LA'>Ladakh</MenuItem>
+                  <MenuItem value='LD'>Lakshadweep</MenuItem>
+                  <MenuItem value='MP'>Madhya Pradesh</MenuItem>
+                  <MenuItem value='MH'>Maharashtra</MenuItem>
+                  <MenuItem value='MN'>Manipur</MenuItem>
+                  <MenuItem value='ML'>Meghalaya</MenuItem>
+                  <MenuItem value='MZ'>Mizoram</MenuItem>
+                  <MenuItem value='NL'>Nagaland</MenuItem>
+                  <MenuItem value='OD'>Odisha</MenuItem>
+                  <MenuItem value='PY'>Puducherry</MenuItem>
+                  <MenuItem value='PB'>Punjab</MenuItem>
+                  <MenuItem value='RJ'>Rajasthan</MenuItem>
+                  <MenuItem value='SK'>Sikkim</MenuItem>
+                  <MenuItem value='TN'>Tamil Nadu</MenuItem>
+                  <MenuItem value='TS'>Telangana</MenuItem>
+                  <MenuItem value='TR'>Tripura</MenuItem>
+                  <MenuItem value='UP'>Uttar Pradesh</MenuItem>
+                  <MenuItem value='UK'>Uttarkhand</MenuItem>
+                  <MenuItem value='WB'>West Bengal</MenuItem>
                 </TextField>
                 <Typography className={classes.formError} component="p">{this.props.clinicStateError}</Typography>
               </FormControl>
@@ -196,7 +183,7 @@ class ClinicForm extends React.Component {
               </FormControl>
 
               <FormControl className={classes.formControl} fullWidth>
-                <InputLabel htmlFor="clinic-phone">Phone number</InputLabel>
+                <InputLabel htmlFor="clinic-phone">Mobile No</InputLabel>
                 <TextField
                   id="clinic-phone"
                   InputLabelProps={{

@@ -72,7 +72,7 @@ class PrescriptionsForm extends React.Component {
               <FormControl className={classes.formControl} fullWidth>
                 <InputLabel htmlFor="prescription-name">
                   <span>
-                    Name
+                    Disease Name
                     <Tooltip  
                       title="Enter the name of the prescription to help identify the prescription later."
                       placement="top">
